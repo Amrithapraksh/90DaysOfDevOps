@@ -1,4 +1,5 @@
 Week 3 Challenge 1: User Account Management
+
 Logic behind my implementation:
 1. With just the command ./user_management.sh, the following message pops up:
 ```bash
