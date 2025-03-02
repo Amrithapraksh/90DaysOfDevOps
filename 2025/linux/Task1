@@ -1,1 +1,22 @@
+1️⃣ User & Group Management
+Learn about Linux users, groups, and permissions (/etc/passwd, /etc/group).
+Task:
+Create a user devops_user and add them to a group devops_team.
+===============================================================
+  120  useradd devops_amritha
+  123  cat /etc/passwd| tail -5
+  124  cat /etc/group| tail -5
+  126  sudo groupadd devops_team
+  129  sudo usermod -aG devops_team devops_amritha
+OUTPUT:
+cat /etc/group| tail -5
+devops_amritha:x:1019:
+devops_team:x:1020:devops_amritha
+cat /etc/group| tail -5
+devops_amritha:x:1019:1019::/home/devops_amritha:/bin/sh
 
+
+Set a password and grant sudo access.
+======================================
+
+Restrict SSH login for certain users in /etc/ssh/sshd_config.
